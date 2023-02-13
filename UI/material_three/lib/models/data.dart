@@ -2,23 +2,23 @@ import 'models.dart';
 
 final User user_0 = User(
     name: const Name(first: 'Me', last: ''),
-    avatarUrl: 'assets/avatar_1.png',
+    avatarUrl: '../assets/avatar_1.png',
     lastActive: DateTime.now());
 final User user_1 = User(
     name: const Name(first: '老', last: '强'),
-    avatarUrl: 'assets/avatar_2.png',
+    avatarUrl: '../assets/avatar_2.png',
     lastActive: DateTime.now().subtract(const Duration(minutes: 10)));
 final User user_2 = User(
     name: const Name(first: 'So', last: 'Duri'),
-    avatarUrl: 'assets/avatar_3.png',
+    avatarUrl: '../assets/avatar_3.png',
     lastActive: DateTime.now().subtract(const Duration(minutes: 20)));
 final User user_3 = User(
     name: const Name(first: 'Lily', last: 'MacDonald'),
-    avatarUrl: 'assets/avatar_4.png',
+    avatarUrl: '../assets/avatar_4.png',
     lastActive: DateTime.now().subtract(const Duration(hours: 2)));
 final User user_4 = User(
     name: const Name(first: 'Ziad', last: 'Aouad'),
-    avatarUrl: 'assets/avatar_5.png',
+    avatarUrl: '../assets/avatar_5.png',
     lastActive: DateTime.now().subtract(const Duration(hours: 6)));
 
 final List<Email> emails = [
@@ -41,7 +41,7 @@ final List<Email> emails = [
       subject: 'This food show is made for you',
       content:
           "Ping– you'd love this new food show I started watching. It's produced by a Thai drummer who started getting recognized for the amazing vegan food she always brought to shows.",
-      attachments: [const Attachment(url: 'assets/thumbnail_1.png')]),
+      attachments: [const Attachment(url: '../assets/thumbnail_1.png')]),
   Email(
     sender: user_4,
     recipients: [],
